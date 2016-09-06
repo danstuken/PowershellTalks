@@ -1,0 +1,60 @@
+
+Intro
+=====
+
+Very quick intro - lot to get through.
+Ask about experience with PS.
+Ask if there is anything specific people want to know.
+
+Back Story
+===========
+
+A developer on a succesful N-tier Mortgage application. Happy using Visual Studio, comes in to work, logs into VS and cracks on. Uses tools like AgentRansack and Explorer to find and manipulate files. Our developer is called Patricia.
+
+Useful Abilities
+================
+
+Needs to do a number of things:
+1) Assess impact of changing a database name - just where is that connection string used across all those modules? There are > 2500 files matching *.config
+2)Investigating remote IIS sites and apps - are they present and recycling app pools
+
+Things that come from this:
+   *)gci, pipeline, foreach
+   *)sls, truthiness, aliases
+   *)PSDrives, remote admin
+   *)command discovery - help, gm, etc.
+
+Advanced Functions
+==================
+
+Patricia sees that some of these quick scripts are quite useful and wants to save them away for future use. She wants to tackle this properly and so writes cmdlet scripts using Advanced Functions.
+
+   *)Common params
+   *)Parameter declarations
+   *)ShouldProcess
+   *)Output streams
+   *)More pipeline
+   *)Verbs
+
+Modules
+=======
+
+Patricia now realises that she's been using modules to achieve some of these tasks - that would be an excellent way to package up her scripts and share them with the rest of her team.
+
+   *)Published funcs/vars/etc.
+   *)Module repos "oneget"
+   *)Publishing modules
+
+Testing
+=======
+
+Now that Patricia has published her modules for wider use, she realises that they really need some tests around them. She learns about Pester.
+
+   *)Pester
+
+AOB
+===
+
+Any Questions?
+
+Likely run out of time by here!
